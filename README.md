@@ -4,7 +4,7 @@ Grounded API documentation copilot: answers questions about OpenAPI specs with c
 
 **Status:** design stage (no application code yet).
 
-- Architecture and design: `docs/design.md` (added in the first design PR)
+- Architecture and design: [docs/design.md](docs/design.md) (diagram: [docs/architecture.png](docs/architecture.png), editable source `docs/architecture.drawio`); CI: [docs/ci-design.md](docs/ci-design.md)
 - **Teardown constraint:** everything on GCP that costs money must be deleted at session end; teardown must never hang or fail silently.
 
 ## Run manually
